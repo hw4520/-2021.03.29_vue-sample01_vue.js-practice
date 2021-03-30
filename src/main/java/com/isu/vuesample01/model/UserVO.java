@@ -18,5 +18,5 @@ public class UserVO {
     private String mobile;
     private Date createDate;
     private Date updateDate;
-
+    private DeptVO deptInfo;
 }
