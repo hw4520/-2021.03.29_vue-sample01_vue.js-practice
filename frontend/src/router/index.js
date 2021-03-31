@@ -29,6 +29,10 @@ const routes = [{
     name: 'vuex02',
     component: () => import('@/components/vuex02')
   }, {
+      path: 'vuex03',
+      name: 'vuex03',
+      component: () => import('@/components/vuex03')
+  }, {
     path: '*',
     component: NotFound
   }]

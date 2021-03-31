@@ -6,12 +6,13 @@ import com.isu.vuesample01.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @RequiredArgsConstructor
-@org.springframework.web.bind.annotation.RestController
-public class RestController {
+@RestController
+public class ApiController {
 
     private final UserService userService;
 

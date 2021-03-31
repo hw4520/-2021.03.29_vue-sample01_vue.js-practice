@@ -11,6 +11,7 @@
       <ul>
         <li><router-link to="/vuex01">Vuex Sample 01</router-link></li>
         <li><router-link to="/vuex02">Vuex Sample 02</router-link></li>
+        <li><router-link to="/vuex03">Vuex Sample 03</router-link></li>
       </ul>
     </div>
   </div>
